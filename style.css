@@ -1,0 +1,37 @@
+body{
+    /* background-color: #f2d95e; */
+    background-image: url("image/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#container{
+    
+    background-color: rgb(255, 255, 255);
+    border: 10px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    height: 275px;
+    width: 750px;
+    margin: 0 auto;
+    text-align: center;
+}
+#btn{
+    margin: 50px auto;
+    height: 50px;
+    width: 250px;
+    font-size: 22px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+}
+
+#btn:hover{
+    background-color: #ffd500;
+    border: 10px solid #ffd500;
+    color: black;
+}
+#output{
+    margin: 25px auto;
+    font-size: 26px;
+    color: rgb(0, 0, 0);
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}
